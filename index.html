@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <title>WebTv</title>
+</head>
+<body id="body">
+  
+  <nav class="nav" id="nav">
+    <a href = "#container"><h2 class="op">Home</h2></a>
+    <a href = "#fea"><h2 class="op">Features</h2></a>
+    <a href = "#player"><h2 class="op">Stream</h2></a>
+  </nav>
+  <div id="upBt">^</div>
+  <div id="container">
+  <h1 id="title">
+   SKVIEW  ™ <br><br>
+    Version 2.0
+  </h1>
+   
+    <img id="logo" src="images/logo.jpg">
+    
+  
+    <p class="des">
+      <br>
+      New Version Released
+      <br>
+      Discover endless entertainment with WebTV – your gateway to the <br>
+      latest Sinhala, Tamil, and English TV shows, movies, and live channels. 
+      Watch anytime, anywhere with<br>
+      high-quality streaming, zero buffering, and a smooth, user-friendly experience.
+    </p>
+    
+    <div class="slider">
+      <div class="slider2">
+      <img src="https://itn.lk/wp-content/uploads/2022/03/ITN-Logo.svg">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vO8JlM_YTZ9jqqBGfthHSHmCIvVxBFeNyA&s">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvzN3jibClDqhYRabyazDpcoQikEojADu8Q&s">
+    </div>
+    </div>
+    
+    <div id="box">
+      <i class="bi bi-ban-fill"></i>
+      <p class="p">Exactly free website without any adds and very friendly UI</p>
+    </div>
+    
+    <div id="fea">
+      <h1 class="tit2">Features</h1>
+      <ul>
+        <li>FREE WEBSITE</li>
+        <li>FRIENDLY UI</li>
+        <li>BEAUTIFUL AND AMAZING ANIMATION</li>
+        
+      </ul>
+    </div>
+  <div id="player" style="width: 100%; aspect-ratio: 16 / 9; max-width: 640px; margin: auto;"></div>
+    
+    <h2 id="sub" >Sri Lankan</h2>
+    <div class="kids">
+      <a href="#player">
+      <button onclick = 'stream("https://jk3lz8xklw79-hls-live.5centscdn.com/live/6226f7cbe59e99a90b5cef6f94f966fd.sdp/playlist.m3u8")' class="bt">Swarnavahini</button>        
+      <button onclick = 'stream("https://222103-hls.akamaized.net/668828a00bf80aa436254876/live_aabd3d003af211efadcf7986aa245789/rewind-3600.m3u8")' class="bt">ITN Tv</button>        
+      </a>
+    </div>
+    
+    <h2 id="sub">Kids</h2>
+    <div class="kids">
+      <a href="#player">
+  <button onclick = 'stream("http://fl1.moveonjoy.com/NICKELODEON/index.m3u8")' class="bt" id="ad">Nickelodeon</button>
+  <button onclick = 'stream("https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8")' class="bt" id="ad">3ABN Kids</button>   
+  <button onclick = 'stream("http://185.189.225.150:85/BabyTV/index.m3u8")' class="bt" id="ad">Baby tv Spain</button>   
+  <button onclick = 'stream("http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65d5fc39a25d5e00082895c4/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc8504f0-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a11b7b48-853c-4292-b5d5-30482134cf1e")' class="bt">Naruto By pluto tv</button>   
+  <button onclick = 'stream("http://fl5.moveonjoy.com/DISNEY/index.m3u8")' class="bt">The Disney Channel East</button>   
+  <button onclick = 'stream("http://fl3.moveonjoy.com/DISNEY_XD/index.m3u8")' class="bt">Disney XD</button>   
+  <button onclick = 'stream("http://fl3.moveonjoy.com/DISNEY_JR/index.m3u8")' class="bt">The Disney.Jr East</button>        
+      </a>  
+    </div>
+    
+    <h2 id="sub">Educational</h2>
+    <div class="kids">
+      <a href="#player">
+      <button onclick = 'stream("https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8")' class="bt">5 Min Craft</button>   
+      </a>
+    </div>
+    
+    <div class="end">
+      <footer>sadee creation &copy; 2025<br> Current Version : 2.0 <br> Last Updated Date : 2025 - 07 - 29</footer>
+    </div>
+    
+  </div>
+  
+   <script src="script.js"></script>
+</body>
+</html>
